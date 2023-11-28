@@ -1,0 +1,152 @@
+/* CSS */
+div#interface {
+  margin-left: -20px auto 0px auto;
+  padding: 50px 50px 0px 50px;
+}
+figure.animais {
+  position: relative;
+}
+figure.animais figcaption {
+  position: absolute;
+  top: 400px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color:#ffffff;
+  padding: 15px;
+}
+
+
+}
+
+p#pessoal {
+    font-size: 24px;
+    font-family:'Indie Flower',cursive;
+    color: white;
+    background-color: blue;
+    position:relative
+    margin-right: 20px;
+    margin-left: 20px;
+}
+p#qualifacoes {
+    font-size: 24px;
+    font-family:'Indie Flower',cursive;
+    color: white;
+    background-color: blue;
+    position:relative
+    margin-right: 20px;
+    margin-left: 20px;
+}
+p#idiomas {
+    font-size: 24px;
+    font-family:'Indie Flower',cursive;
+    color: white;
+    background-color: blue;
+    position:relative
+    margin-right: 40px;
+    margin-left: 40px;
+}
+p#idiomas {
+    font-size: 24px;
+    font-family:'Indie Flower',cursive;
+    color: white;
+    background-color: blue;
+    position:relative
+    margin-right: 20px;
+    margin-left: 20px;
+}
+p#profissional {
+    font-size: 24px;
+    font-family:'Arial',cursive;
+    color: white;
+    background-color: blue;
+    position:relative
+    margin-right: 20px;
+    margin-left: 20px;
+}
+nav#menu {
+
+display: block;
+
+}
+nav#menu h1 {
+
+display: none;
+
+}
+nav#menu ul {
+
+list-style: none;
+text-transforme: uppercase;
+position: absolute;
+top: -15px;
+left: 200px;
+
+}
+
+nav#menu li {
+
+display:inline-block;
+background-color: #dddddd;
+padding: 10px;
+margin: 2px;
+
+}
+h1, h2
+
+
+#menu ul li { display: inline; }
+
+#menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+
+    /* visual do link */
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+}
+#menu ul li a:hover {
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid #EA0000;
+}
+
+    texto{
+    font-size: 15;
+}
+
+    #feed {
+
+    margin: auto;
+	position:relative;
+	top:-31px;
+	left:-233px;
+	width: 1200px;
+    height: 1200px;
+
+		}
+
+    #lista  {
+
+    position: absolute;
+    top:2000px;
+    left: 900px;
+    width: 1200px;
+    height: 850px;
+
+}
+    body   {
+           background-image: url(https://myrealdomain.com/images/background-azul-claro-2.png);
+            width: 100%;
+            height: 100%;
+}
+
+    #jumb {
+
+    position: relative;
+    top:-1285px;
+    left: 338px;
+    width: 950px;
+    height: 900px;
+
+}

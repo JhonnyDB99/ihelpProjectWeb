@@ -1,0 +1,301 @@
+/* CSS */
+/*CSS*/
+/* Container Responsivo */
+
+/* Container Responsivo */
+@media (min-width: 1200px)
+.container {
+    max-width: 100%;
+}
+@media (min-width: 992px)
+.container {
+    max-width: 100%;
+}
+@media (min-width: 768px)
+.container {
+    max-width: 100%;
+}
+@media (min-width: 576px)
+.container {
+    max-width: 100%;
+}
+.container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* Fim do Container */
+body {
+    background-color:#ffffff;
+    color: lightskyblue;
+   
+}
+.main {
+    position: relative;
+    margin-top: 300px;
+    background-color: lightskyblue;
+    margin: 20px;
+    
+}
+.card-deck {
+    padding: 10px;
+}
+.h1destaques {
+    text-align: center;
+    color: #000;
+}
+.slider {
+    position: absolute;
+    box-align: center;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 600px;
+}
+.imagebox {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.imageAfter {
+    width:0;
+    transition: 2s;
+    overflow: hidden;
+    border-right: 10px solid #ffffff;
+}
+.container:hover .imageAfter {
+    width: 100%;
+}
+.main2 {
+    margin-top: 800px;
+    height: 600px;
+    background-color: lightskyblue;
+    object-position: center;
+    align-items: center;
+    margin: 0px;
+    padding: 10px;
+ }
+ .slider {
+    position: relative;
+    top: 45%;
+    transform: translate(-50%,-50%);
+    width: 1000px;
+    height: 500px;
+    text-align: center;
+    }
+    .imagebox {
+        position: absolute;
+        top:0;
+        left: 0;
+    }
+    .imageAfter {
+        width: 0;
+        transition: 2s;
+        overflow: hidden;
+        border-right: 10px solid #ffffff;
+    }
+    .slider:hover .imageAfter {
+        width: 100%;
+    }
+    .h1slider {
+        text-align: center;
+        top:10;
+        color: #000;
+    }
+    .nome {
+      color: #ffffff;
+    }
+    .nome2 {
+        color: #ffffff;
+    }
+    .border-warning {       
+        margin: 10px;
+   }
+   .box {
+       margin:10px;
+   }
+   h1.card-title {
+       background-color: lightskyblue;
+       color: #000;
+       text-align: center;
+       margin-top: 30%;
+   }
+   h2.card-text {
+       text-align: center;
+   }
+   .btn-warning {
+       color: #000;
+       font-weight: 600;
+   }
+   .card-img {
+       margin: 25px 10px 10px 10px;
+       position: relative;
+   }
+   .footer {
+       background-color: #ffffff;
+   }
+   #myFooter {
+    background-color: #3a3f46;
+    color: white;
+}
+
+#myFooter .row {
+    margin-bottom: 60px;
+}
+
+#myFooter .info{
+    text-align: justify; 
+    color: #afb0b1;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter .logo{
+    margin-top: 10px;
+}
+
+#myFooter .second-bar .logo a{
+    color:white;
+    font-size: 28px;
+    float: left;
+    font-weight: bold;
+    line-height: 68px;
+    margin: 0;
+    padding: 0;
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#myFooter .second-bar {
+    text-align: center;
+    background-color: #33373e;
+    text-align: center;
+}
+
+#myFooter .second-bar a {
+    font-size: 22px;
+    color: #9fa3a9;
+    padding: 10px;
+    transition: 0.2s;
+    line-height: 68px;
+}
+
+#myFooter .second-bar a:hover {
+    text-decoration: none;
+}
+
+#myFooter .social-icons {
+    float:right;
+}
+
+
+#myFooter .facebook:hover {
+    color: #0077e2;
+}
+
+#myFooter .instagram:hover {
+    color: purple;
+}
+
+#myFooter .twitter:hover {
+    color: #00aced;
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+
+    #myFooter .info{
+        text-align: center;
+    }
+}
+
+
+
+/* CSS utilizado para posicionar o rodapé no final da página. */
+/* Você pode remover isso. */
+
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    height: 100%;
+}
+
+.content{
+   flex: 1 0 auto;
+   -webkit-flex: 1 0 auto;
+   min-height: 200px;
+}
+
+#myFooter{
+   flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div#interface {
+  margin-left: -20px auto 0px auto;
+  padding: 50px 50px 0px 50px;
+}
+figure.crianca {
+  position: relative;
+}
+figure.crianca figcaption {
+  position: absolute;
+  top: 400px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color:#ffffff;
+  padding: 15px;
+}
+
+
+}
+
+
